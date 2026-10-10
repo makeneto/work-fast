@@ -1,0 +1,32 @@
+{
+  "name": "work-fast",
+  "version": "1.0.0",
+  "description": "Adds the quick-flow guide folder to the root of any project",
+  "type": "module",
+  "bin": {
+    "work-fast": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "fluxo-rapido",
+    "trabalhar-rápido.pdf"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepack": "pnpm build"
+  },
+  "keywords": [
+    "guide",
+    "workflow",
+    "cli",
+    "makenedev"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
